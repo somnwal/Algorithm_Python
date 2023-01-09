@@ -1,4 +1,4 @@
-# https://www.acmicpc.net/problem/15649
+# https://www.acmicpc.net/problem/15651
 
 import sys
 
@@ -10,12 +10,11 @@ def dfs(tmp):
         arr.append(' '.join(tmp))
         return
 
-    for i in range(1, n+1):
+    for i in range(1, n + 1):
         new_tmp = tmp[:]
+        new_tmp.append(str(i))
 
-        if str(i) not in new_tmp:
-            new_tmp.append(str(i))
-            dfs(new_tmp)
+        dfs(new_tmp)
 
 
 n, m = map(int, sys.stdin.readline().rstrip().split())
