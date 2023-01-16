@@ -15,5 +15,4 @@ prev = None
 i = 0
 j = n-1
 
-
 print(target)
