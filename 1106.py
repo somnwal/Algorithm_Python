@@ -1,3 +1,5 @@
+# https://www.acmicpc.net/problem/1106
+
 import sys
 
 INF = 1e9
