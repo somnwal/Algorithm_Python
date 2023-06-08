@@ -1,6 +1,6 @@
 # https://www.acmicpc.net/problem/1874
 
-import sys s
+import sys
 
 s = []
 q = []

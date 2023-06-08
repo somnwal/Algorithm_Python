@@ -5,6 +5,7 @@ import sys
 n, s, m = map(int, sys.stdin.readline().rstrip().split())
 v = list(map(int, sys.stdin.readline().rstrip().split()))
 
+
 dp = [[0] * (m+1) for _ in range(n+1)]
 dp[0][s] = 1
 
