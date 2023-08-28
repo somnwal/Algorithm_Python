@@ -2,7 +2,7 @@ import datetime
 
 # 오늘 일자
 today = datetime.datetime.now()
-target = "2023-02-28"
+target = "2023-11-30"
 
 holiday = ["2023-01-01",
            "2023-01-21",
